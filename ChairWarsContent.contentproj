@@ -56,7 +56,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Nuclex.Fonts.Content.TrueTypeImporter">
-      <HintPath>..\..\..\Libs\Nuclex.Fonts.Content.TrueTypeImporter.dll</HintPath>
+      <HintPath>..\ChairWars\Libs\Nuclex.Fonts.Content.TrueTypeImporter.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +64,7 @@
       <Name>DefaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>NuclexSpriteFontDescriptionProcessor</Processor>
+      <SubType>Designer</SubType>
     </Compile>
     <Compile Include="Skins\Suave\TitleFont.spritefont">
       <Name>TitleFont</Name>
